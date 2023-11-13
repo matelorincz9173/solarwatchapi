@@ -28,7 +28,7 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore /SolarwatchAPI/SolarWatchAPI.csproj
-      working-directory: /SolarwatchAPI
+      working-directory: SolarwatchAPI
 
     - name: Build
       run: dotnet build --no-restore
